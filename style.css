@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: #000000;
+    font-family: "Epilogue", sans-serif;
+    font-weight: bold;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('https://i.postimg.cc/Qjh4JLZc/wallpaper.jpg');
+    background-size: 350px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.top-menu{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left: 0;
+
+    background-color: #89d4d3;
+    border-bottom: 3px solid #000;
+    width: 100%;
+    height: 40px;
+    opacity: 0.97;
+    
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.top-menu ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+
+    font-size: 13.5px;
+
+    flex: 1;
+    list-style: none;
+}
+
+.top-menu li{
+    cursor: pointer;
+    transition: 0.5s;
+}.top-menu li:hover{
+    font-weight: bolder;
+}
+
+.top-menu h3{
+    position: absolute;
+    margin: 0;
+    left: 0;
+    min-width: 100px;
+    padding-left: 60px;
+
+    font-size: 20px;
+    font-weight: bolder;
+
+    transition: 1.5s;
+}.top-menu h3:hover{
+    font-weight: lighter;
+}
+
+.top-menu .menu-icons{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 60px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 73vh;
+    max-width: 620px;
+    width: 100%;
+    opacity: 95%;
+
+    background: rgb(248, 248, 184);
+    border: 3px solid #000;
+    border-radius: 10px;
+    box-shadow: 10px 8px 3px #000;
+}
+
+.main-card h1{
+    transition: 0.8s;
+}.main-card h1:hover{
+    font-weight: 900;
+}
+
+.main-card h3{
+    margin-top: -10px;
+    color: #484848;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+form input{
+    margin-bottom: 27px;
+    width: 420px;
+    height: 38px;
+    padding: 5px;
+    padding-left: 10px;
+
+    background: #fffde0;
+    border: 2.5px solid #000;
+    border-radius: 5px;
+    box-shadow: 4px 3px 1px #2b2b2b;
+}
+
+#forgot-pin{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -415px;
+    color: #2b2b2b;
+    font-size: 12.5px;
+    cursor:pointer;
+    text-decoration: none;
+}#forgot-pin:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100px;
+    padding: 9px;
+    margin-left: 320px;
+
+    background-color: #b9e6e5;
+    border: 2px solid #000;
+    border-radius: 2px;
+    box-shadow: 1.5px 1px 1px #000;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    position: relative;
+    background-color: #89d4d3;
+}
+
+#sign-up{
+    position: absolute;
+    margin-bottom: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}#sign-up:hover{
+    color: rgba(47, 0, 255, 0.85);
+}
+
+footer{
+    position: fixed;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    bottom: 0;
+    
+    background-color: rgba(204, 190, 67, 0.533);
+    border-radius: 50px;
+    font-size: 11px;
+    transition: 0.5s;
+}footer:hover{
+    background-color:rgba(248, 255, 190, 0.35);
+    font-size: 11.5px;
+}footer p{
+    color: rgba(0, 0, 0, 0.904);
+}
+
+::selection {
+    background-color: #ffcc00;}
+
+h1,a,label,button,footer{
+    user-select: none;
+}
