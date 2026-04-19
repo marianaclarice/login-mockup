@@ -2,7 +2,8 @@
 Este projeto foi um estudo prático de interface de usuário (UI) inspirado no design da estética **Neo-Brutalista**. O objetivo foi equilibrar criatividade com as boas práticas de experiência do usuário (UX).  
 Este repositório é um **estudo exclusivo de interface**. Atualmente, o projeto não possui lógica de autenticação ou integração com banco de dados, funcionando apenas como um mockup estático.
 
-<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/5ffdd6cb-dc61-4f49-9555-2650ce100933" />  
+<img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/79f74ad3-b5d3-4a76-ac43-a2650eb856e2" />
+
 
 ## 🚀 Sobre o Projeto
 O mockup apresenta uma página de login para uma plataforma fictícia, utilizando as principais características do estilo neobrutalista: cores, contrastes marcantes, tipografia robusta e sombras sólidas.
